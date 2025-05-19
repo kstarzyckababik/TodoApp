@@ -104,7 +104,7 @@ fun TodoItem(item : Todo, onDelete: ()-> Unit){
             Text(
                 text = SimpleDateFormat("HH:mm:aa, dd/mm", Locale.ENGLISH).format(item.createdAt),
                 fontSize = 12.sp,
-                color = Color.DarkGray
+                color = Color.LightGray
             )
             Text(
                 text = item.title,
